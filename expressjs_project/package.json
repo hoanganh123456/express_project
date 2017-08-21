@@ -1,0 +1,19 @@
+{
+  "name": "expressjs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e css,js,ejs,json --watch app --ignore feedback.json"
+  },
+  "author": "hoanganh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "socket.io": "^2.0.3"
+  }
+}
